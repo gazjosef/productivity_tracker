@@ -15,11 +15,11 @@ class Calendar extends Component {
     super(props);
     this.width = props.width || "350px";
     this.style = props.style || {};
-    this.style.width = this.width; // add this
+    this.style.width = this.width;
   }
 
-  weekdays = moment.weekdays(); //["Sunday", "Monday", "Tuesday", "Wednessday", "Thursday", "Friday", "Saturday"]
-  weekdaysShort = moment.weekdaysShort(); // ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+  weekdays = moment.weekdays();
+  weekdaysShort = moment.weekdaysShort();
   months = moment.months();
 
   year = () => {
@@ -43,7 +43,7 @@ class Calendar extends Component {
     let dateContext = this.state.dateContext;
     let firstDay = moment(dateContext)
       .startOf("month")
-      .format("d"); // Day of week 0...1..5...6
+      .format("d");
     return firstDay;
   };
 
@@ -183,7 +183,6 @@ class Calendar extends Component {
   };
 
   render() {
-    // Map the weekdays i.e Sun, Mon, Tue etc as <td>
     let weekdays = this.weekdaysShort.map(day => {
       return (
         <td key={day} className="week-day">
