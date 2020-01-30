@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 
+// LAYOUT
 import Calendar from "./Layout/Calendar";
 
 const style = {

@@ -17,6 +17,11 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <!-- Material Design Bootstrap -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.12.0/css/mdb.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <!-- NAVBAR -->
@@ -82,6 +87,7 @@
     <div class="container">
       <div class="row">
         <h1>Progress</h1>
+        <canvas id="myChart" style="max-width: 500px;"></canvas>
       </div>
     </div>
   </section>
@@ -104,6 +110,12 @@
     ></script>
     <!-- CK EDITOR -->
     <script src="https://cdn.ckeditor.com/4.13.1/standard/ckeditor.js"></script>
+    <!-- MDB core JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.12.0/js/mdb.min.js"
+    ></script>
+    <script src="js/script.js"></script>
     <script>
       // Get current year for the copyright
       $("#year").text(new Date().getFullYear());
