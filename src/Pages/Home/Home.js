@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import "./home.css";
 
 const Home = () => {
   return (
@@ -9,7 +8,7 @@ const Home = () => {
           <div className="row">
             <div className="col-md-6">
               <h1>
-                <i className="fas fa-pencil-alt"></i> Journal
+                <i className="fas fa-pencil-alt"></i> Home
               </h1>
             </div>
           </div>
