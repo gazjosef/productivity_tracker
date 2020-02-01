@@ -29,9 +29,9 @@ class App extends Component {
           <Navbar />
           <Header />
           <Switch>
-            <Home />
-            <Journal />
-            <Goals />
+            <Route exact path="/" component={Home} />
+            <Route exact path="/journal" component={Journal} />
+            <Route exact path="/goals" component={Goals} />
           </Switch>
           <Calendar
             style={style}

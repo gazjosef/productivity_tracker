@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -17,20 +18,29 @@ const Navbar = () => {
           </button>
           <div id="navbarCollapse" className="collapse navbar-collapse">
             <ul className="navbar-nav">
-              <li className="nav-item px-2">
-                <a href="index.html" className="nav-link active">
+              <li className="nav-item nav-link px-2">
+                <Link to="/journal" style={{ textDecoration: "none" }}>
                   Journal
-                </a>
+                </Link>
+                {/* <a href="index.html" className="nav-link active">
+                  Journal
+                </a> */}
               </li>
-              <li className="nav-item px-2">
-                <a href="goals.html" className="nav-link">
+              <li className="nav-item nav-link px-2">
+                <Link to="/goals" style={{ textDecoration: "none" }}>
                   Goals
-                </a>
+                </Link>
+                {/* <a href="goals.html" className="nav-link">
+                  Goals
+                </a> */}
               </li>
-              <li className="nav-item px-2">
-                <a href="progress.html" className="nav-link">
+              <li className="nav-item nav-link px-2">
+                {/* <Link to="/progress" style={{ textDecoration: "none" }}>
                   Progress
-                </a>
+                </Link> */}
+                {/* <a href="progress.html" className="nav-link">
+                  Progress
+                </a> */}
               </li>
             </ul>
             <ul className="navbar-nav ml-auto">
