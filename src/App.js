@@ -1,8 +1,14 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 
 // LAYOUT
 import Calendar from "./Layout/Calendar";
+
+// PAGES
+import Home from "./Pages/Home/Home";
+import Journal from "./Pages/Journal/Journal";
+import Goals from "./Pages/Goals/Goals";
 
 const style = {
   position: "relative",
@@ -16,13 +22,20 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <Calendar
-          style={style}
-          width="302px"
-          onDayClick={(e, day) => this.onDayClick(e, day)}
-        />
-      </div>
+      <Router>
+        <div className="App">
+          <Switch>
+            <Home />
+            <Journal />
+            <Goals />
+          </Switch>
+          <Calendar
+            style={style}
+            width="302px"
+            onDayClick={(e, day) => this.onDayClick(e, day)}
+          />
+        </div>
+      </Router>
     );
   }
 }
