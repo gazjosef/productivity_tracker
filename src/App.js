@@ -4,6 +4,7 @@ import "./App.css";
 
 // LAYOUT
 import Calendar from "./Layout/Calendar";
+import Navbar from "./Layout/Navbar/Navbar";
 
 // PAGES
 import Home from "./Pages/Home/Home";
@@ -24,6 +25,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
+          <Navbar />
           <Switch>
             <Home />
             <Journal />
