@@ -6,9 +6,6 @@ const Navbar = () => {
     <Fragment>
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark p-0">
         <div className="container">
-          {/* <a href="index.html" className="navbar-brand">
-            Habit Tracker
-          </a> */}
           <Link
             to="/"
             className="navbar-brand"
