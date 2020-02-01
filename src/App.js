@@ -5,6 +5,7 @@ import "./App.css";
 // LAYOUT
 import Calendar from "./Layout/Calendar";
 import Navbar from "./Layout/Navbar/Navbar";
+import Header from "./Layout/Header/Header";
 
 // PAGES
 import Home from "./Pages/Home/Home";
@@ -26,6 +27,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <Navbar />
+          <Header />
           <Switch>
             <Home />
             <Journal />
