@@ -6,9 +6,16 @@ const Navbar = () => {
     <Fragment>
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark p-0">
         <div className="container">
-          <a href="index.html" className="navbar-brand">
+          {/* <a href="index.html" className="navbar-brand">
             Habit Tracker
-          </a>
+          </a> */}
+          <Link
+            to="/"
+            className="navbar-brand"
+            style={{ textDecoration: "none" }}
+          >
+            Habit Tracker
+          </Link>
           <button
             className="navbar-toggler"
             data-toggle="collapse"
