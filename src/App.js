@@ -11,6 +11,7 @@ import Header from "./Layout/Header/Header";
 import Home from "./Pages/Home/Home";
 import Journal from "./Pages/Journal/Journal";
 import Goals from "./Pages/Goals/Goals";
+import Progress from "./Pages/Progress/Progress";
 
 const style = {
   position: "relative",
@@ -32,6 +33,7 @@ class App extends Component {
             <Route exact path="/" component={Home} />
             <Route exact path="/journal" component={Journal} />
             <Route exact path="/goals" component={Goals} />
+            <Route exact path="/progress" component={Progress} />
           </Switch>
           <Calendar
             style={style}

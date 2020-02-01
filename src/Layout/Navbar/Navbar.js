@@ -35,9 +35,9 @@ const Navbar = () => {
                 </a> */}
               </li>
               <li className="nav-item nav-link px-2">
-                {/* <Link to="/progress" style={{ textDecoration: "none" }}>
+                <Link to="/progress" style={{ textDecoration: "none" }}>
                   Progress
-                </Link> */}
+                </Link>
                 {/* <a href="progress.html" className="nav-link">
                   Progress
                 </a> */}
