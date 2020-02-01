@@ -22,25 +22,16 @@ const Navbar = () => {
                 <Link to="/journal" style={{ textDecoration: "none" }}>
                   Journal
                 </Link>
-                {/* <a href="index.html" className="nav-link active">
-                  Journal
-                </a> */}
               </li>
               <li className="nav-item nav-link px-2">
                 <Link to="/goals" style={{ textDecoration: "none" }}>
                   Goals
                 </Link>
-                {/* <a href="goals.html" className="nav-link">
-                  Goals
-                </a> */}
               </li>
               <li className="nav-item nav-link px-2">
                 <Link to="/progress" style={{ textDecoration: "none" }}>
                   Progress
                 </Link>
-                {/* <a href="progress.html" className="nav-link">
-                  Progress
-                </a> */}
               </li>
             </ul>
             <ul className="navbar-nav ml-auto">
