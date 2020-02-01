@@ -1,11 +1,11 @@
 import React, { Fragment } from "react";
 
-const Journal = () => {
+const Goals = () => {
   return (
     <Fragment>
-      <h3>Journal</h3>
+      <h3>Goals</h3>
     </Fragment>
   );
 };
 
-export default Journal;
+export default Goals;
