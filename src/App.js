@@ -33,11 +33,11 @@ class App extends Component {
             <Route exact path="/goals" component={Goals} />
             <Route exact path="/progress" component={Progress} />
           </Switch>
-          <Calendar
+          {/* <Calendar
             style={style}
             width="302px"
             onDayClick={(e, day) => this.onDayClick(e, day)}
-          />
+          /> */}
         </div>
       </Router>
     );

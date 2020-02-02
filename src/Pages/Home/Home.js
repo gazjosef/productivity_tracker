@@ -66,7 +66,7 @@ const Home = () => {
                   <h4>Latest Habits</h4>
                 </div>
                 <div className="card-body">
-                  <div className="progress mb-3" style={{ height: "50px;" }}>
+                  <div className="progress mb-3" style={{ height: "50px" }}>
                     <div
                       className="progress-bar progress-bar-striped bg-success"
                       role="progressbar"
