@@ -1,5 +1,8 @@
 import React, { Fragment } from "react";
 
+// LAYOUT
+import Actions from "../../Layout/Actions/Actions";
+
 const Goals = () => {
   return (
     <Fragment>
@@ -14,7 +17,7 @@ const Goals = () => {
           </div>
         </div>
       </header>
-      <h3>Goals</h3>
+      <Actions />
     </Fragment>
   );
 };
