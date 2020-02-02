@@ -2,7 +2,7 @@
   "name": "project_planner",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gazjosef.github.io/project-planner",
+  "homepage": "https://gazjosef.github.io/project_planner",
   "dependencies": {
     "gh-pages": "^2.2.0",
     "moment": "^2.24.0",

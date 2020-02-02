@@ -136,7 +136,7 @@ const Home = () => {
                   <h4>Latest Habits</h4>
                 </div>
                 <div className="card-body">
-                  <div className="progress mb-3" style={{ height: "50px;" }}>
+                  <div className="progress mb-3" style={{ height: "50px" }}>
                     <div
                       className="progress-bar progress-bar-striped bg-success"
                       role="progressbar"
@@ -146,7 +146,7 @@ const Home = () => {
                       aria-valuemax="100"
                     ></div>
                   </div>
-                  <div className="progress mb-3" style={{ height: "50px;" }}>
+                  <div className="progress mb-3" style={{ height: "50px" }}>
                     <div
                       className="progress-bar progress-bar-striped bg-info"
                       role="progressbar"
@@ -156,7 +156,7 @@ const Home = () => {
                       aria-valuemax="100"
                     ></div>
                   </div>
-                  <div className="progress mb-3" style={{ height: "50px;" }}>
+                  <div className="progress mb-3" style={{ height: "50px" }}>
                     <div
                       className="progress-bar progress-bar-striped bg-warning"
                       role="progressbar"
@@ -166,7 +166,7 @@ const Home = () => {
                       aria-valuemax="100"
                     ></div>
                   </div>
-                  <div className="progress" style={{ height: "50px;" }}>
+                  <div className="progress" style={{ height: "50px" }}>
                     <div
                       className="progress-bar bg-danger"
                       role="progressbar"
