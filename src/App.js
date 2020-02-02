@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 
 // LAYOUT
-import Calendar from "./Layout/Calendar";
+// import OldCalendar from "./Layout/OldCalendar/OldCalendar";
 import Navbar from "./Layout/Navbar/Navbar";
 
 // PAGES
@@ -18,10 +18,9 @@ const style = {
 };
 
 class App extends Component {
-  onDayClick = (e, day) => {
-    alert(day);
-  };
-
+  // onDayClick = (e, day) => {
+  //   alert(day);
+  // };
   render() {
     return (
       <Router>

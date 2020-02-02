@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import moment from "moment";
-import "./Calendar.css";
+import "./oldCalendar.css";
 
-class Calendar extends Component {
+class OldCalendar extends Component {
   state = {
     dateContext: moment(),
     today: moment(),
@@ -278,4 +278,4 @@ class Calendar extends Component {
   }
 }
 
-export default Calendar;
+export default OldCalendar;
