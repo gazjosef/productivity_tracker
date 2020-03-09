@@ -2,6 +2,8 @@ import React, { Fragment } from "react";
 
 // LAYOUT
 import ProgressBar from "../../Layout/ProgressBar/ProgressBar";
+import ThisWeek from "../../Layout/ThisWeek/ThisWeek";
+import CompletionRate from "../../Layout/CompletionRate/CompletionRate";
 
 const Progress = () => {
   return (
@@ -21,6 +23,8 @@ const Progress = () => {
         <div className="row">
           <div className="col-md-9">
             <ProgressBar />
+            <ThisWeek />
+            <CompletionRate />
           </div>
         </div>
       </div>

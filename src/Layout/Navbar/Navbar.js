@@ -11,7 +11,7 @@ const Navbar = () => {
             className="navbar-brand"
             style={{ textDecoration: "none" }}
           >
-            Habit Tracker
+            Project Planner
           </Link>
           <button
             className="navbar-toggler"
