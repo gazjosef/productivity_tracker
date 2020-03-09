@@ -4,6 +4,9 @@ import React, { Fragment } from "react";
 import ProgressBar from "../../Layout/ProgressBar/ProgressBar";
 import ThisWeek from "../../Layout/ThisWeek/ThisWeek";
 import CompletionRate from "../../Layout/CompletionRate/CompletionRate";
+import CheckInTime from "../../Layout/CheckInTime/CheckInTime";
+import DailyPerformance from "../../Layout/DailyPerformance/DailyPerformance";
+import YearlyPerformance from "../../Layout/YearlyPerformance/YearlyPerformance";
 
 const Progress = () => {
   return (
@@ -25,6 +28,9 @@ const Progress = () => {
             <ProgressBar />
             <ThisWeek />
             <CompletionRate />
+            <CheckInTime />
+            <DailyPerformance />
+            <YearlyPerformance />
           </div>
         </div>
       </div>

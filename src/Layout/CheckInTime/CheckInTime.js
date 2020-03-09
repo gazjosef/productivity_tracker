@@ -1,11 +1,11 @@
 import React, { Fragment } from "react";
 
-const ThisWeek = () => {
+const CheckInTime = () => {
   return (
     <Fragment>
-      <h1>This week</h1>
+      <h1>CheckInTime</h1>
     </Fragment>
   );
 };
 
-export default ThisWeek;
+export default CheckInTime;
