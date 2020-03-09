@@ -14,7 +14,7 @@ const Home = () => {
           <div className="row">
             <div className="col-md-6">
               <h1>
-                <i className="fas fa-pencil-alt"></i> Home
+                <i className="fas fa-home"></i> Home
               </h1>
             </div>
           </div>
