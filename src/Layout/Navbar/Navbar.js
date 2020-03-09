@@ -41,7 +41,7 @@ const Navbar = () => {
             <ul className="navbar-nav ml-auto">
               <li className="nav-item dropdown mr-3">
                 <a
-                  href="#"
+                  href="/#"
                   className="nav-link dropdown-toggle"
                   data-toggle="dropdown"
                 >

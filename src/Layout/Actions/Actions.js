@@ -8,7 +8,8 @@ const Actions = () => {
           <div className="row">
             <div className="col-md-3">
               <a
-                href="#"
+                // eslint-disable-next-line
+                href="/#"
                 className="btn btn-success btn-block"
                 data-toggle="modal"
                 data-target="#addPostModal"
@@ -18,7 +19,8 @@ const Actions = () => {
             </div>
             <div className="col-md-3">
               <a
-                href="#"
+                // eslint-disable-next-line
+                href="/#"
                 className="btn btn-danger btn-block"
                 data-toggle="modal"
                 data-target="#addCategoryModal"
@@ -28,7 +30,8 @@ const Actions = () => {
             </div>
             <div className="col-md-3">
               <a
-                href="#"
+                // eslint-disable-next-line
+                href="/#"
                 className="btn btn-warning btn-block"
                 data-toggle="modal"
                 data-target="#addUserModal"

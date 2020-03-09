@@ -8,11 +8,13 @@ const Calendar = () => {
           <tr>
             <th colspan="7">
               <span className="btn-group">
-                <a className="btn">
+                <a href="/#" className="btn">
                   <i className="fas fa-chevron-left"></i>
                 </a>
-                <a className="btn active">February 2012</a>
-                <a className="btn">
+                <a href="/#" className="btn active">
+                  February 2012
+                </a>
+                <a href="/#" className="btn">
                   <i className="fas fa-chevron-right"></i>
                 </a>
               </span>

@@ -12,10 +12,10 @@ import Journal from "./Pages/Journal/Journal";
 import Goals from "./Pages/Goals/Goals";
 import Progress from "./Pages/Progress/Progress";
 
-const style = {
-  position: "relative",
-  margin: "50px auto"
-};
+// const style = {
+//   position: "relative",
+//   margin: "50px auto"
+// };
 
 class App extends Component {
   // onDayClick = (e, day) => {
