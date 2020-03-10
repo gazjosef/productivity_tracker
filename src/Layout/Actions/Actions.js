@@ -14,7 +14,7 @@ const Actions = () => {
                 data-toggle="modal"
                 data-target="#addPostModal"
               >
-                <i className="fas fa-plus"></i> Add Positive
+                <i className="fas fa-plus"></i> Add Project
               </a>
             </div>
             <div className="col-md-3">
@@ -25,7 +25,7 @@ const Actions = () => {
                 data-toggle="modal"
                 data-target="#addCategoryModal"
               >
-                <i className="fas fa-plus"></i> Add Negative
+                <i className="fas fa-plus"></i> Add Goal
               </a>
             </div>
             <div className="col-md-3">
@@ -36,7 +36,7 @@ const Actions = () => {
                 data-toggle="modal"
                 data-target="#addUserModal"
               >
-                <i className="fas fa-plus"></i> Add Neutral
+                <i className="fas fa-plus"></i> Add ?
               </a>
             </div>
           </div>
