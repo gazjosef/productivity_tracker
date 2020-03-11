@@ -3,7 +3,7 @@ import React, { Fragment } from "react";
 const CompletionRate = () => {
   return (
     <Fragment>
-      <div className="card">
+      <div className="card mt-3">
         <div className="card-header">
           <h4>Completion Rate</h4>
         </div>
