@@ -3,7 +3,7 @@ import React, { Fragment } from "react";
 const Calendar = () => {
   return (
     <Fragment>
-      <table className="table table-bordered table-striped">
+      <table className="table table-bordered table-striped mt-3">
         <thead>
           <tr>
             <th colspan="7">

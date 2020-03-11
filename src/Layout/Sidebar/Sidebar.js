@@ -3,7 +3,7 @@ import React, { Fragment } from "react";
 const Sidebar = () => {
   return (
     <Fragment>
-      <div className="card text-center bg-primary text-white mb-3">
+      <div className="card text-center bg-primary text-white mt-3">
         <div className="card-body">
           <h3>Positive</h3>
           <h4 className="display-4">
@@ -14,7 +14,7 @@ const Sidebar = () => {
           </a>
         </div>
       </div>
-      <div className="card text-center bg-success text-white mb-3">
+      <div className="card text-center bg-success text-white mt-3">
         <div className="card-body">
           <h3>Negative</h3>
           <h4 className="display-4">
@@ -25,7 +25,7 @@ const Sidebar = () => {
           </a>
         </div>
       </div>
-      <div className="card text-center bg-warning text-white mb-3">
+      <div className="card text-center bg-warning text-white mt-3">
         <div className="card-body">
           <h3>Neutral</h3>
           <h4 className="display-4">

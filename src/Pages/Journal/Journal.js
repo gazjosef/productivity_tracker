@@ -21,7 +21,7 @@ const Journal = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-9">
-              <Calendar />
+              <Calendar className="mt-3" />
             </div>
             <div className="col-md-3">
               <Sidebar />
