@@ -3,7 +3,7 @@ import React, { Fragment } from "react";
 const YearlyPerformance = () => {
   return (
     <Fragment>
-      <div className="card">
+      <div className="card mt-3">
         <div className="card-header">
           <h4>Yearly Performance</h4>
         </div>

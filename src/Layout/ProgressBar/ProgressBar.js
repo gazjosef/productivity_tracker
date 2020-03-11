@@ -3,7 +3,7 @@ import React, { Fragment } from "react";
 const ProgressBar = () => {
   return (
     <Fragment>
-      <div className="card">
+      <div className="card mt-3">
         <div className="card-header">
           <h4>Latest Habits</h4>
         </div>

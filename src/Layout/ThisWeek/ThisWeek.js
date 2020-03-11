@@ -3,7 +3,7 @@ import React, { Fragment } from "react";
 const ThisWeek = () => {
   return (
     <Fragment>
-      <div className="card">
+      <div className="card mt-3">
         <div className="card-header">
           <h4>This Week</h4>
         </div>
