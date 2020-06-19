@@ -1,16 +1,17 @@
-import React, { Component } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import "./App.css";
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import './App.css';
 
 // LAYOUT
 // import OldCalendar from "./Layout/OldCalendar/OldCalendar";
-import Navbar from "./Layout/Navbar/Navbar";
+import Navbar from './Layout/Navbar/Navbar';
 
 // PAGES
-import Home from "./Pages/Home/Home";
-import Journal from "./Pages/Journal/Journal";
-import Goals from "./Pages/Goals/Goals";
-import Progress from "./Pages/Progress/Progress";
+import Home from './Pages/Home/Home';
+import Journal from './Pages/Journal/Journal';
+import Goals from './Pages/Goals/Goals';
+import Progress from './Pages/Progress/Progress';
+import { Settings } from './Pages/Settings/Settings';
 
 // const style = {
 //   position: "relative",
@@ -31,6 +32,7 @@ class App extends Component {
             <Route exact path="/journal" component={Journal} />
             <Route exact path="/goals" component={Goals} />
             <Route exact path="/progress" component={Progress} />
+            <Route exact path="/settings" component={Settings} />
           </Switch>
           {/* <Calendar
             style={style}

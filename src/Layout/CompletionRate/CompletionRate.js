@@ -5,7 +5,7 @@ const CompletionRate = () => {
     <Fragment>
       <div className="card mt-3">
         <div className="card-header">
-          <h4>Completion Rate</h4>
+          <h4>Completion Rates</h4>
         </div>
         <div className="card-body">
           <div className="progress mb-3" style={{ height: "50px" }}>

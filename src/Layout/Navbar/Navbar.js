@@ -1,5 +1,5 @@
-import React, { Fragment } from "react";
-import { Link } from "react-router-dom";
+import React, { Fragment } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -9,7 +9,7 @@ const Navbar = () => {
           <Link
             to="/"
             className="navbar-brand"
-            style={{ textDecoration: "none" }}
+            style={{ textDecoration: 'none' }}
           >
             Project Planner
           </Link>
@@ -23,18 +23,23 @@ const Navbar = () => {
           <div id="navbarCollapse" className="collapse navbar-collapse">
             <ul className="navbar-nav">
               <li className="nav-item nav-link px-2">
-                <Link to="/journal" style={{ textDecoration: "none" }}>
+                <Link to="/journal" style={{ textDecoration: 'none' }}>
                   Journal
                 </Link>
               </li>
               <li className="nav-item nav-link px-2">
-                <Link to="/goals" style={{ textDecoration: "none" }}>
+                <Link to="/goals" style={{ textDecoration: 'none' }}>
                   Goals
                 </Link>
               </li>
               <li className="nav-item nav-link px-2">
-                <Link to="/progress" style={{ textDecoration: "none" }}>
+                <Link to="/progress" style={{ textDecoration: 'none' }}>
                   Progress
+                </Link>
+              </li>
+              <li className="nav-item nav-link px-2">
+                <Link to="/settings" style={{ textDecoration: 'none' }}>
+                  Settings
                 </Link>
               </li>
             </ul>
