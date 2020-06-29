@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment } from 'react';
 
 const DailyPerformance = () => {
   return (
@@ -8,7 +8,8 @@ const DailyPerformance = () => {
           <h4>Daily Performance</h4>
         </div>
         <div className="card-body">
-          <div className="progress mb-3" style={{ height: "50px" }}>
+          <canvas id="myChart"></canvas>
+          {/* <div className="progress mb-3" style={{ height: "50px" }}>
             <div
               className="progress-bar progress-bar-striped bg-success"
               role="progressbar"
@@ -47,7 +48,7 @@ const DailyPerformance = () => {
               aria-valuemin="0"
               aria-valuemax="100"
             ></div>
-          </div>
+          </div> */}
         </div>
       </div>
     </Fragment>
