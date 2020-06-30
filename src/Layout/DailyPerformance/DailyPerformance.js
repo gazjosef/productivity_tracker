@@ -52,7 +52,11 @@ class DailyPerformance extends Component {
             <h4>Daily Performance</h4>
           </div>
           <div className="card-body">
-            <Chart chartData={this.state.chartData} legendPosition="bottom" />
+            <Chart
+              chartData={this.state.chartData}
+              location="Australia"
+              legendPosition="bottom"
+            />
           </div>
         </div>
       </Fragment>
