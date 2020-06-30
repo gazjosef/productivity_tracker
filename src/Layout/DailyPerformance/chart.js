@@ -36,7 +36,19 @@ class Chart extends Component {
   render() {
     return (
       <div className="chart">
-        <HorizontalBar data={this.state.chartData} options={{}} />
+        <HorizontalBar
+          data={this.state.chartData}
+          options={{
+            title: {
+              display: true,
+              text: 'Largest Cities In Australia',
+            },
+            legend: {
+              display: true,
+              position: 'right',
+            },
+          }}
+        />
       </div>
     );
   }
