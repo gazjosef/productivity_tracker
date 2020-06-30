@@ -2,11 +2,15 @@ import React, { Component, Fragment } from 'react';
 import Chart from './Chart';
 
 class DailyPerformance extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
-      chartData: {},
+      chartData: props.chartData,
     };
+  }
+
+  componentWillMount() {
+    this.getChartData();
   }
 
   getChartData() {
@@ -48,7 +52,7 @@ class DailyPerformance extends Component {
             <h4>Daily Performance</h4>
           </div>
           <div className="card-body">
-            <Chart legendPosition="bottom" />
+            <Chart chartData={this.state.chartData} legendPosition="bottom" />
           </div>
         </div>
       </Fragment>
