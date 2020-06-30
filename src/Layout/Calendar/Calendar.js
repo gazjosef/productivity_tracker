@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment } from 'react';
 
 const Calendar = () => {
   return (
@@ -6,7 +6,7 @@ const Calendar = () => {
       <table className="table table-bordered table-striped mt-3">
         <thead>
           <tr>
-            <th colspan="7">
+            <th colSpan="7">
               <span className="btn-group">
                 <a href="/#" className="btn">
                   <i className="fas fa-chevron-left"></i>
