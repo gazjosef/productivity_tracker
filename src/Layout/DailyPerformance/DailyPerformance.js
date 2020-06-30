@@ -10,7 +10,7 @@ class DailyPerformance extends Component {
             <h4>Daily Performance</h4>
           </div>
           <div className="card-body">
-            <Chart />
+            <Chart legendPosition="bottom" />
           </div>
         </div>
       </Fragment>
