@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react';
+import Chart from './Chart';
 
 class DailyPerformance extends Component {
   componentDidMount() {
@@ -15,6 +16,7 @@ class DailyPerformance extends Component {
           </div>
           <div className="card-body">
             <canvas ref="canvas" width={640} height={425}></canvas>
+            <Chart />
           </div>
         </div>
       </Fragment>

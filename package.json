@@ -4,10 +4,11 @@
   "private": true,
   "homepage": "https://gazjosef.github.io/project_planner",
   "dependencies": {
+    "chart.js": "^2.9.3",
     "gh-pages": "^2.2.0",
     "moment": "^2.24.0",
     "react": "^16.9.0",
-    "react-chartjs": "^1.2.0",
+    "react-chartjs-2": "^2.9.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.3.1"
