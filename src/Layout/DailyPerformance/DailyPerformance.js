@@ -2,11 +2,6 @@ import React, { Component, Fragment } from 'react';
 import Chart from './Chart';
 
 class DailyPerformance extends Component {
-  componentDidMount() {
-    const canvas = this.refs.canvas;
-    const ctx = canvas.getContext('2d');
-    console.log(ctx);
-  }
   render() {
     return (
       <Fragment>
@@ -15,7 +10,6 @@ class DailyPerformance extends Component {
             <h4>Daily Performance</h4>
           </div>
           <div className="card-body">
-            <canvas ref="canvas" width={640} height={425}></canvas>
             <Chart />
           </div>
         </div>
