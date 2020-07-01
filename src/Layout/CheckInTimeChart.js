@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HorizontalBar } from 'react-chartjs-2';
+import { Bar } from 'react-chartjs-2';
 
 class CheckInTimeChart extends Component {
   constructor(props) {
@@ -18,7 +18,7 @@ class CheckInTimeChart extends Component {
   render() {
     return (
       <div className="chart">
-        <HorizontalBar
+        <Bar
           data={this.state.chartData}
           options={{
             title: {

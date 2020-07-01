@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 
 // LAYOUT
+import CheckInTimeChart from '../Layout/CheckInTimeChart';
 import DailyPerformanceChart from '../Layout/DailyPerformanceChart';
 
 class Progress2 extends Component {
@@ -85,7 +86,13 @@ class Progress2 extends Component {
                 <div className="card-header">
                   <h4>Check-In Time</h4>
                 </div>
-                <div className="card-body"></div>
+                <div className="card-body">
+                  <CheckInTimeChart
+                    chartData={this.state.chartData}
+                    location="Australia"
+                    legendPosition="bottom"
+                  />
+                </div>
               </div>
               <div className="card mt-3">
                 <div className="card-header">
