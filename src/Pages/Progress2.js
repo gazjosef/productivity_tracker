@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 
 // LAYOUT
-import DailyPerformanceChart from '../Layout/DailyPerformance/Chart';
+import DailyPerformanceChart from '../Layout/DailyPerformanceChart';
 
 export default class Progress extends Component {
   constructor(props) {
