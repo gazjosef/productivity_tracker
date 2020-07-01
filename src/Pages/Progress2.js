@@ -3,7 +3,7 @@ import React, { Component, Fragment } from 'react';
 // LAYOUT
 import DailyPerformanceChart from '../Layout/DailyPerformanceChart';
 
-export default class Progress extends Component {
+class Progress2 extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -112,3 +112,5 @@ export default class Progress extends Component {
     );
   }
 }
+
+export default Progress2;

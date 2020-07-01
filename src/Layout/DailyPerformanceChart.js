@@ -40,63 +40,7 @@ class DailyPerformanceChart extends Component {
             },
           }}
         />
-        <Pie
-          data={this.state.chartData}
-          options={{
-            title: {
-              display: this.props.displayTitle,
-              text: 'Largest Cities In ' + this.props.location,
-              fontSize: 25,
-            },
-            legend: {
-              display: this.props.displayLegend,
-              position: this.props.legendPosition,
-            },
-          }}
-        />
-        <Line
-          data={this.state.chartData}
-          options={{
-            title: {
-              display: this.props.displayTitle,
-              text: 'Largest Cities In ' + this.props.location,
-              fontSize: 25,
-            },
-            legend: {
-              display: this.props.displayLegend,
-              position: this.props.legendPosition,
-            },
-          }}
-        />
-        <Doughnut
-          data={this.state.chartData}
-          options={{
-            title: {
-              display: this.props.displayTitle,
-              text: 'Largest Cities In ' + this.props.location,
-              fontSize: 25,
-            },
-            legend: {
-              display: this.props.displayLegend,
-              position: this.props.legendPosition,
-            },
-          }}
-        />
         <Bar
-          data={this.state.chartData}
-          options={{
-            title: {
-              display: this.props.displayTitle,
-              text: 'Largest Cities In ' + this.props.location,
-              fontSize: 25,
-            },
-            legend: {
-              display: this.props.displayLegend,
-              position: this.props.legendPosition,
-            },
-          }}
-        />
-        <Radar
           data={this.state.chartData}
           options={{
             title: {
