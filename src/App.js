@@ -9,7 +9,6 @@ import Navbar from './Layout/Navbar/Navbar';
 // PAGES
 import Home from './Pages/Home/Home';
 import Journal from './Pages/Journal/Journal';
-import Goals from './Pages/Goals/Goals';
 import Progress from './Pages/Progress/Progress';
 import { Settings } from './Pages/Settings/Settings';
 
@@ -30,7 +29,6 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/journal" component={Journal} />
-            <Route exact path="/goals" component={Goals} />
             <Route exact path="/progress" component={Progress} />
             <Route exact path="/settings" component={Settings} />
           </Switch>

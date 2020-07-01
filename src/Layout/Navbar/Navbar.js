@@ -28,11 +28,6 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item nav-link px-2">
-                <Link to="/goals" style={{ textDecoration: 'none' }}>
-                  Goals
-                </Link>
-              </li>
-              <li className="nav-item nav-link px-2">
                 <Link to="/progress" style={{ textDecoration: 'none' }}>
                   Progress
                 </Link>
