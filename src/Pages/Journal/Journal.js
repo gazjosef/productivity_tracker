@@ -1,17 +1,17 @@
-import React, { Fragment } from "react";
+import React, { Fragment } from 'react';
 
-import Sidebar from "../../Layout/Sidebar/Sidebar";
-import Calendar from "../../Layout/Calendar/Calendar";
+import Sidebar from '../../Layout/Sidebar/Sidebar';
+import Calendar from '../../Layout/Calendar/Calendar';
 
 const Journal = () => {
   return (
     <Fragment>
-      <header id="main-header" class="py-2 bg-primary text-white">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
+      <header id="main-header" className="py-2 bg-primary text-white">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6">
               <h1>
-                <i class="fas fa-pencil-alt"></i> Journal
+                <i className="fas fa-pencil-alt"></i> Journal
               </h1>
             </div>
           </div>
