@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 
 // Layout
-import Actions from '../Layout/Actions/Actions';
+import Actions from '../Layout/Actions';
 import Calendar from '../Layout/Calendar/Calendar';
 import ProgressBar from '../Layout/ProgressBar/ProgressBar';
 import Sidebar from '../Layout/Sidebar/Sidebar';
