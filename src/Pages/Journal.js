@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 
-import Sidebar from '../../Layout/Sidebar/Sidebar';
-import Calendar from '../../Layout/Calendar/Calendar';
+import Sidebar from '../Layout/Sidebar/Sidebar';
+import Calendar from '../Layout/Calendar/Calendar';
 
 const Journal = () => {
   return (
