@@ -3,14 +3,13 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 
 // LAYOUT
-// import OldCalendar from "./Layout/OldCalendar/OldCalendar";
-import Navbar from './Layout/Navbar/Navbar';
+import Navbar from './Components/Layout/Navbar';
 
 // PAGES
-import Home from './Pages/Home';
-import Journal from './Pages/Journal';
-import Progress from './Pages/Progress';
-import { Settings } from './Pages/Settings';
+import Home from './Components/Pages/Home';
+import Journal from './Components/Pages/Journal';
+import Progress from './Components/Pages/Progress';
+import { Settings } from './Components/Pages/Settings';
 
 // const style = {
 //   position: "relative",

@@ -3,8 +3,7 @@ import React, { Fragment } from 'react';
 // Layout
 import Actions from '../Layout/Actions';
 import Calendar from '../Layout/Calendar';
-import ProgressBar from '../Layout/ProgressBar/ProgressBar';
-import Sidebar from '../Layout/Sidebar/Sidebar';
+import Sidebar from '../Layout/Sidebar';
 
 const Home = () => {
   return (
@@ -26,7 +25,6 @@ const Home = () => {
           <div className="row">
             <div className="col-md-9">
               <Calendar />
-              <ProgressBar />
             </div>
             <div className="col-md-3">
               <Sidebar />
