@@ -1,10 +1,10 @@
-import React, { Fragment } from "react";
+import React, { Fragment } from 'react';
 
 // Layout
-import Actions from "../../Layout/Actions/Actions";
-import Calendar from "../../Layout/Calendar/Calendar";
-import ProgressBar from "../../Layout/ProgressBar/ProgressBar";
-import Sidebar from "../../Layout/Sidebar/Sidebar";
+import Actions from '../Layout/Actions/Actions';
+import Calendar from '../Layout/Calendar/Calendar';
+import ProgressBar from '../Layout/ProgressBar/ProgressBar';
+import Sidebar from '../Layout/Sidebar/Sidebar';
 
 const Home = () => {
   return (

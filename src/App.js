@@ -7,11 +7,11 @@ import './App.css';
 import Navbar from './Layout/Navbar/Navbar';
 
 // PAGES
-import Home from './Pages/Home/Home';
+import Home from './Pages/Home';
 import Journal from './Pages/Journal/Journal';
 // import Progress from './Pages/Progress/Progress';
 import Progress2 from './Pages/Progress2';
-import { Settings } from './Pages/Settings/Settings';
+import { Settings } from './Pages/Settings';
 
 // const style = {
 //   position: "relative",
