@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 
 // Layout
 import Actions from '../../Layout/Actions';
-import Calendar from '../../Layout/Calendar';
+import { Calendar } from '../../Layout/Calendar/Calendar';
 import Sidebar from '../../Layout/Sidebar';
 
 export const Home = () => {

@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 
-const Calendar = () => {
+export const Calendar = () => {
   return (
     <Fragment>
       <table className="table table-bordered table-striped mt-3">
