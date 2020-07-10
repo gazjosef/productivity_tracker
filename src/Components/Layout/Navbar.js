@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 
-const Navbar = () => {
+export const Navbar = () => {
   return (
     <Fragment>
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark p-0">
@@ -69,5 +69,3 @@ const Navbar = () => {
     </Fragment>
   );
 };
-
-export default Navbar;

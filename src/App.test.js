@@ -1,9 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { shallow } from 'enzyme';
 import App from './App';
+import { Navbar } from './Components/Layout/Navbar';
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
+it('should render Ticket and Footer', () => {
+  const wrapper = shallow(<App />);
+  const navbar = wrapper.find(Navbar);
+
+  expect(navbar.exists()).toBe(true);
 });
