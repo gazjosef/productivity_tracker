@@ -1,11 +1,9 @@
 import React, { Fragment } from 'react';
 
-// Layout
-import Actions from '../Layout/Actions';
-import Calendar from '../Layout/Calendar';
-import Sidebar from '../Layout/Sidebar';
+import Sidebar from '../../Layout/Sidebar';
+import Calendar from '../../Layout/Calendar';
 
-const Home = () => {
+export const Journal = () => {
   return (
     <Fragment>
       <header id="main-header" className="py-2 bg-primary text-white">
@@ -13,18 +11,17 @@ const Home = () => {
           <div className="row">
             <div className="col-md-6">
               <h1>
-                <i className="fas fa-home"></i> Home
+                <i className="fas fa-pencil-alt"></i> Journal
               </h1>
             </div>
           </div>
         </div>
       </header>
-      <Actions />
       <section id="track">
         <div className="container">
           <div className="row">
             <div className="col-md-9">
-              <Calendar />
+              <Calendar className="mt-3" />
             </div>
             <div className="col-md-3">
               <Sidebar />
@@ -35,5 +32,3 @@ const Home = () => {
     </Fragment>
   );
 };
-
-export default Home;
