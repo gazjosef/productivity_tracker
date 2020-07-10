@@ -3,7 +3,7 @@ import React, { Fragment } from 'react';
 // Layout
 import Actions from '../../Layout/Actions';
 import { Calendar } from '../../Layout/Calendar/Calendar';
-import Sidebar from '../../Layout/Sidebar';
+import { Sidebar } from '../../Layout/Sidebar/Sidebar';
 
 export const Home = () => {
   return (

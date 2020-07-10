@@ -1,9 +1,9 @@
 import React, { Component, Fragment } from 'react';
 
 // LAYOUT
-import CheckInTimeChart from '../Layout/CheckInTimeChart';
-import CompletionRateChart from '../Layout/CompletionRateChart';
-import DailyPerformanceChart from '../Layout/DailyPerformanceChart';
+import CheckInTimeChart from '../../Layout/CheckInTimeChart';
+import CompletionRateChart from '../../Layout/CompletionRateChart';
+import DailyPerformanceChart from '../../Layout/DailyPerformanceChart';
 
 class Progress2 extends Component {
   constructor(props) {

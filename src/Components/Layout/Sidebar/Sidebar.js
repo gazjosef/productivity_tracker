@@ -1,6 +1,6 @@
-import React, { Fragment } from "react";
+import React, { Fragment } from 'react';
 
-const Sidebar = () => {
+export const Sidebar = () => {
   return (
     <Fragment>
       <div className="card text-center bg-primary text-white mt-3">
@@ -39,5 +39,3 @@ const Sidebar = () => {
     </Fragment>
   );
 };
-
-export default Sidebar;

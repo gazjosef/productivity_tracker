@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 
-import Sidebar from '../../Layout/Sidebar';
+import { Sidebar } from '../../Layout/Sidebar/Sidebar';
 import { Calendar } from '../../Layout/Calendar/Calendar';
 
 export const Journal = () => {

@@ -8,7 +8,7 @@ import { Navbar } from './Components/Layout/Navbar';
 // PAGES
 import { Home } from './Components/Pages/Home/Home';
 import { Journal } from './Components/Pages/Journal/Journal';
-import Progress from './Components/Pages/Progress';
+import Progress from './Components/Pages/Progress/Progress';
 import { Settings } from './Components/Pages/Settings';
 
 // const style = {
