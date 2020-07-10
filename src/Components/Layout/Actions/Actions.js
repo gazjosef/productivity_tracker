@@ -1,6 +1,6 @@
-import React, { Fragment } from "react";
+import React, { Fragment } from 'react';
 
-const Actions = () => {
+export const Actions = () => {
   return (
     <Fragment>
       <section id="actions" className="py-4 mb-4 bg-light">
@@ -45,5 +45,3 @@ const Actions = () => {
     </Fragment>
   );
 };
-
-export default Actions;
