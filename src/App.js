@@ -3,13 +3,13 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 
 // LAYOUT
-import { Navbar } from './Components/Layout/Navbar';
+import { Navbar } from './Components/Layout/Navbar/Navbar';
 
 // PAGES
 import { Home } from './Components/Pages/Home/Home';
 import { Journal } from './Components/Pages/Journal/Journal';
 import Progress from './Components/Pages/Progress/Progress';
-import { Settings } from './Components/Pages/Settings';
+import { Settings } from './Components/Pages/Settings/Settings';
 
 // const style = {
 //   position: "relative",
