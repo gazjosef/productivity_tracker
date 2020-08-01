@@ -1,14 +1,36 @@
-import React, { useState } from 'react';
+import React, { useState, useReducer } from 'react';
 
 // LAYOUT
 import CheckInTimeChart from '../../Layout/CheckInTimeChart';
 import CompletionRateChart from '../../Layout/CompletionRateChart';
 import DailyPerformanceChart from '../../Layout/DailyPerformanceChart';
+import { Actions } from '../../Layout/Actions/Actions';
+
+const ACTIONS = {
+  INCREMENT: 'increment',
+  DECREMENT: 'decrement',
+};
+
+function reducer(state, action) {
+  switch (action.type) {
+    case ACTIONS.INCREMENT:
+      return state;
+    case ACTIONS.DECREMENT:
+      return state;
+    default:
+      return state;
+  }
+}
 
 export const Progress2 = () => {
-  const [chartData, setChartData] = useState('chart data');
+  const [state, dispatch] = useReducer(reducer, {
+    chartData: {
+      labels: ['Sydney', 'Melbourne', 'Brisbane'],
+    },
+  });
+  // const [chartData, setChartData] = useState('chart data');
 
-  console.log(chartData);
+  console.log(state);
   return (
     <>
       <header id="main-header" className="py-2 bg-primary text-white">
