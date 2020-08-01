@@ -5,7 +5,7 @@ import CheckInTimeChart from '../../Layout/CheckInTimeChart';
 import CompletionRateChart from '../../Layout/CompletionRateChart';
 import DailyPerformanceChart from '../../Layout/DailyPerformanceChart';
 
-class Progress2 extends Component {
+class Progress extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -127,4 +127,4 @@ class Progress2 extends Component {
   }
 }
 
-export default Progress2;
+export default Progress;

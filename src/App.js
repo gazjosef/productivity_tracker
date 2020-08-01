@@ -8,7 +8,8 @@ import { Navbar } from './Components/Layout/Navbar/Navbar';
 // PAGES
 import { Home } from './Components/Pages/Home/Home';
 import { Journal } from './Components/Pages/Journal/Journal';
-import Progress from './Components/Pages/Progress/Progress';
+// import Progress from './Components/Pages/Progress/Progress';
+import { Progress2 } from './Components/Pages/Progress/Progress2';
 import { Settings } from './Components/Pages/Settings/Settings';
 
 // const style = {
@@ -28,7 +29,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/journal" component={Journal} />
-            <Route exact path="/progress" component={Progress} />
+            <Route exact path="/progress" component={Progress2} />
             <Route exact path="/settings" component={Settings} />
           </Switch>
           {/* <Calendar
