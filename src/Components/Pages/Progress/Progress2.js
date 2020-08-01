@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 // LAYOUT
 import CheckInTimeChart from '../../Layout/CheckInTimeChart';
@@ -6,6 +6,9 @@ import CompletionRateChart from '../../Layout/CompletionRateChart';
 import DailyPerformanceChart from '../../Layout/DailyPerformanceChart';
 
 export const Progress2 = () => {
+  const [chartData, setChartData] = useState('chart data');
+
+  console.log(chartData);
   return (
     <>
       <header id="main-header" className="py-2 bg-primary text-white">
