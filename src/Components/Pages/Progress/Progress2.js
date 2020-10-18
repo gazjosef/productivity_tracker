@@ -1,10 +1,9 @@
-import React, { useState, useReducer } from 'react';
+import React, { useReducer } from 'react';
 
 // LAYOUT
-import CheckInTimeChart from '../../Layout/CheckInTimeChart';
-import CompletionRateChart from '../../Layout/CompletionRateChart';
-import DailyPerformanceChart from '../../Layout/DailyPerformanceChart';
-import { Actions } from '../../Layout/Actions/Actions';
+// import CheckInTimeChart from '../../Layout/CheckInTimeChart';
+// import CompletionRateChart from '../../Layout/CompletionRateChart';
+// import DailyPerformanceChart from '../../Layout/DailyPerformanceChart';
 
 const ACTIONS = {
   INCREMENT: 'increment',
@@ -64,11 +63,11 @@ export const Progress2 = () => {
                 <h4>Completion Rates</h4>
               </div>
               <div className="card-body">
-                <CompletionRateChart
+                {/* <CompletionRateChart
                   // chartData={this.state.chartData}
                   location="Australia"
                   legendPosition="bottom"
-                />
+                /> */}
               </div>
             </div>
             <div className="card mt-3">
@@ -76,11 +75,11 @@ export const Progress2 = () => {
                 <h4>Check-In Time</h4>
               </div>
               <div className="card-body">
-                <CheckInTimeChart
+                {/* <CheckInTimeChart
                   // chartData={this.state.chartData}
                   location="Australia"
                   legendPosition="bottom"
-                />
+                /> */}
               </div>
             </div>
             <div className="card mt-3">
@@ -88,11 +87,11 @@ export const Progress2 = () => {
                 <h4>Daily Performance</h4>
               </div>
               <div className="card-body">
-                <DailyPerformanceChart
+                {/* <DailyPerformanceChart
                   // chartData={this.state.chartData}
                   location="Australia"
                   legendPosition="bottom"
-                />
+                /> */}
               </div>
             </div>
             <div className="card mt-3">
